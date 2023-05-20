@@ -1,0 +1,63 @@
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: blueviolet;
+}
+
+.judul {
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+
+.content {
+  display: flex;
+}
+
+.content-right {
+  width: 50%;
+  height: fit-content;
+}
+
+.content-right img {
+  width: 100%;
+}
+
+.content-left {
+  background-color: hsla(0, 0%, 100%, 0);
+  width: 50%;
+  height: 80vh;
+  text-align: center;
+  color: aliceblue;
+}
+
+.content-left h4,
+.content-left h1,
+.content-left h2 {
+  padding-top: 2vw;
+  padding-bottom: 1vw;
+}
+
+.content-left h1 {
+  font-family: Poppins, sans-serif;
+  font-size: 50px;
+  line-height: 1.25;
+  font-weight: 700;
+  text-align: left;
+}
+
+.content-left h2 {
+  padding-top: 5vw;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.content-left button {
+  background-color: white;
+  color: salmon;
+  font-weight: bold;
+  font-size: 20px;
+  width: 70%;
+  border-radius: 15px;
+  height: 14%;
+  text-transform: uppercase;
+}
